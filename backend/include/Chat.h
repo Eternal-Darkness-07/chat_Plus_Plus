@@ -11,6 +11,7 @@ class Chat: public drogon::HttpController<Chat>
     METHOD_LIST_BEGIN
       METHOD_ADD(Chat::CreateRoomId, "/CreateRoomId", Post, Options, "CorsFilter"); 
       METHOD_ADD(Chat::ActiveRoomId, "/ActiveRoomId", Post, Options, "CorsFilter"); 
+      
     METHOD_LIST_END
 
     void CreateRoomId(const HttpRequestPtr &req, function<void(const HttpResponsePtr &)> &&callback);
