@@ -40,8 +40,8 @@ A real-time chat application with a C++ (Drogon) backend and a React (Vite) fron
 ### 1. Clone the Repository
 
 ```sh
-git clone <your-repo-url>
-cd chat_application
+git clone https://github.com/Eternal-Darkness-07/chat_Plus_Plus.git
+cd chat_Plus_Plus
 ```
 
 ---
